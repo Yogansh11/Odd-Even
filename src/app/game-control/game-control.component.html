@@ -1,0 +1,21 @@
+<!-- <div>
+  <button (click)="startTimer()"
+    style="background-color:
+    green; margin-right:30px; margin-left:30px;">START</button>
+
+  <button (click)="stopTimer()" style="background-color:
+    red; margin-right:30px;">STOP</button>
+</div> -->
+
+<div class="example-button-row">
+  <button mat-raised-button color="primary" style="background-color:
+  green;" (click)="startTimer()">START</button>
+  <button mat-raised-button color="warn" style="background-color:
+  red;" (click)="stopTimer()">STOP</button>
+</div>
+
+<h1 class="timer" style="text-align:center">{{timer}}</h1>
+
+<app-odd [number]="Odd"></app-odd>
+
+<app-even [number]="Even"></app-even>

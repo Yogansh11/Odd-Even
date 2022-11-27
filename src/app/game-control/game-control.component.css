@@ -1,0 +1,20 @@
+button {
+  padding: 10px 25px;
+  margin: 20px;
+  background-color: white;
+  font: bolder;
+  font-size: medium;
+  color:white;
+  border: 0.1px black;
+  outline: none;
+  border-radius: 10px;
+}
+
+button:hover{
+  color:black;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+
